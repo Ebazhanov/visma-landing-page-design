@@ -49,7 +49,7 @@ export function BrandsSection() {
                 alt={brand.alt}
                 width={200}
                 height={80}
-                className="h-10 w-auto object-contain filter hover:scale-105 transition-transform duration-300"
+                className="h-16 w-auto object-contain filter hover:scale-105 transition-transform duration-300"
               />
             </div>
           ))}
