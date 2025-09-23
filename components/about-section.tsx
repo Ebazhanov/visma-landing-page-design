@@ -2,6 +2,7 @@
 
 import { Card, CardContent } from "@/components/ui/card"
 import { useLanguage } from "@/contexts/language-context"
+import { Wrench, Zap, Cog, DraftingCompass as Drafting } from "lucide-react"
 
 export function AboutSection() {
   const { t } = useLanguage()
@@ -57,7 +58,7 @@ export function AboutSection() {
           <Card className="text-center p-6 hover:shadow-lg transition-shadow">
             <CardContent className="pt-6">
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <div className="w-6 h-6 bg-secondary rounded" />
+                <Wrench className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="font-semibold text-card-foreground mb-2">{t("about.services.mro")}</h3>
               <p className="text-sm text-muted-foreground">{t("about.services.mroDesc")}</p>
@@ -67,7 +68,7 @@ export function AboutSection() {
           <Card className="text-center p-6 hover:shadow-lg transition-shadow">
             <CardContent className="pt-6">
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <div className="w-6 h-6 bg-secondary rounded" />
+                <Zap className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="font-semibold text-card-foreground mb-2">{t("about.services.electrical")}</h3>
               <p className="text-sm text-muted-foreground">{t("about.services.electricalDesc")}</p>
@@ -77,7 +78,7 @@ export function AboutSection() {
           <Card className="text-center p-6 hover:shadow-lg transition-shadow">
             <CardContent className="pt-6">
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <div className="w-6 h-6 bg-secondary rounded" />
+                <Cog className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="font-semibold text-card-foreground mb-2">{t("about.services.equipment")}</h3>
               <p className="text-sm text-muted-foreground">{t("about.services.equipmentDesc")}</p>
@@ -87,7 +88,7 @@ export function AboutSection() {
           <Card className="text-center p-6 hover:shadow-lg transition-shadow">
             <CardContent className="pt-6">
               <div className="w-12 h-12 bg-secondary/10 rounded-lg flex items-center justify-center mx-auto mb-4">
-                <div className="w-6 h-6 bg-secondary rounded" />
+                <Drafting className="w-6 h-6 text-secondary" />
               </div>
               <h3 className="font-semibold text-card-foreground mb-2">{t("about.services.engineering")}</h3>
               <p className="text-sm text-muted-foreground">{t("about.services.engineeringDesc")}</p>

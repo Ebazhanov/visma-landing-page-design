@@ -53,6 +53,16 @@ export function PartnershipSection() {
                     <span>{t("partnership.flexatec.feature2")}</span>
                   </li>
                 </ul>
+                <div className="mt-4 pt-3 border-t border-gray-200">
+                  <a
+                    href="https://neilsoft.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                  >
+                    {t("partnership.flexatec.visitNeilsoft")}
+                  </a>
+                </div>
               </div>
             </div>
           </div>
