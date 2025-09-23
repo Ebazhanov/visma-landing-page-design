@@ -1,11 +1,16 @@
+"use client"
+
 import { Mail } from "lucide-react"
+import { useLanguage } from "@/contexts/language-context"
 
 export function ContactSection() {
+  const { t } = useLanguage()
+
   return (
     <section className="py-16 bg-navy-900 text-white">
       <div className="container mx-auto px-4">
         <div className="max-w-4xl mx-auto text-center">
-          <h2 className="text-3xl md:text-4xl font-bold mb-12">Contact Us</h2>
+          <h2 className="text-3xl md:text-4xl font-bold mb-12">{t("contact.title")}</h2>
 
           <div className="grid md:grid-cols-2 gap-8">
             <div className="bg-white/10 p-8 rounded-lg">

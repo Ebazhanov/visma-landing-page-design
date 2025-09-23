@@ -1,6 +1,11 @@
+"use client"
+
 import Image from "next/image"
+import { useLanguage } from "@/contexts/language-context"
 
 export function BrandsSection() {
+  const { t } = useLanguage()
+
   const brands = [
     { name: "NITTA", logo: "/images/nitta-logo.png", alt: "NITTA Invention & Innovation Logo" },
     { name: "FESTO", logo: "/images/brands/festo.png", alt: "FESTO Logo" },
@@ -27,10 +32,8 @@ export function BrandsSection() {
         {/* Product Range Section */}
         <div className="mb-16">
           <div className="text-center mb-12">
-            <h2 className="text-4xl font-bold text-slate-900 mb-4 text-balance">Product Range - SHOP TRUSTED BRANDS</h2>
-            <p className="text-xl text-amber-600 font-semibold text-balance">
-              CHOICE OF MANUFACTURERS AVAILABLE THROUGH THE ONE NETWORK
-            </p>
+            <h2 className="text-4xl font-bold text-slate-900 mb-4 text-balance">{t("brands.title")}</h2>
+            <p className="text-xl text-amber-600 font-semibold text-balance">{t("brands.subtitle")}</p>
           </div>
         </div>
 

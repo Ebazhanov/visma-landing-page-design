@@ -1,31 +1,30 @@
+"use client"
+
 import { CheckCircle } from "lucide-react"
+import { useLanguage } from "@/contexts/language-context"
 
 export function ValueSection() {
+  const { t } = useLanguage()
+
   const values = [
     {
-      title: "RELIABILITY",
-      items: ["Excellent references", "Reliable Partner"],
+      title: t("value.reliability.title"),
+      items: [t("value.reliability.point1"), t("value.reliability.point2")],
       color: "bg-orange-500",
     },
     {
-      title: "TEAM",
-      items: [
-        "Professional Team with 15+ years international experience in FMCG companies to support your needs!",
-        "Procurement MRO Category Management Support to maximize your business profitability.",
-      ],
+      title: t("value.team.title"),
+      items: [t("value.team.point1"), t("value.team.point2")],
       color: "bg-green-500",
     },
     {
-      title: "SUPPLY",
-      items: ["Products, YOU ask we supply.", "Developed supply network (India, China, LAO, NA)."],
+      title: t("value.supply.title"),
+      items: [t("value.supply.point1"), t("value.supply.point2")],
       color: "bg-yellow-500",
     },
     {
-      title: "SAVINGS",
-      items: [
-        "Finding the best solutions, in solving your problems.",
-        "Supporting to meet your Savings targets (Cost Avoidance, Cost Reduction/TCO, Working Capital).",
-      ],
+      title: t("value.savings.title"),
+      items: [t("value.savings.point1"), t("value.savings.point2")],
       color: "bg-blue-500",
     },
   ]
@@ -35,8 +34,8 @@ export function ValueSection() {
       <div className="container mx-auto px-4">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
-            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">Our Value</h2>
-            <p className="text-xl text-blue-600 font-semibold">We're here to serve you, the ones who get it done!</p>
+            <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">{t("value.title")}</h2>
+            <p className="text-xl text-blue-600 font-semibold">{t("value.subtitle")}</p>
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

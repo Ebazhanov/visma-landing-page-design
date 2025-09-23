@@ -1,27 +1,36 @@
+"use client"
+
 import { Button } from "@/components/ui/button"
+import { LanguageToggle } from "@/components/language-toggle"
+import { useLanguage } from "@/contexts/language-context"
 
 export function Header() {
+  const { t } = useLanguage()
+
   return (
     <header className="bg-primary text-primary-foreground py-4 px-6">
       <div className="max-w-7xl mx-auto flex items-center justify-between">
         <div className="text-2xl font-bold">VISMA</div>
         <nav className="hidden md:flex items-center gap-8">
           <a href="#about" className="hover:text-accent transition-colors">
-            About Us
+            {t("nav.about")}
           </a>
           <a href="#products" className="hover:text-accent transition-colors">
-            Products
+            {t("nav.products")}
           </a>
           <a href="#partnerships" className="hover:text-accent transition-colors">
-            Partnerships
+            {t("nav.partnerships")}
           </a>
           <a href="#contact" className="hover:text-accent transition-colors">
-            Contact
+            {t("nav.contact")}
           </a>
         </nav>
-        <Button variant="secondary" className="hidden md:inline-flex">
-          Get Quote
-        </Button>
+        <div className="flex items-center gap-4">
+          <LanguageToggle />
+          <Button variant="secondary" className="hidden md:inline-flex">
+            {t("nav.getQuote")}
+          </Button>
+        </div>
       </div>
     </header>
   )
