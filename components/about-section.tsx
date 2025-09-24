@@ -29,7 +29,17 @@ export function AboutSection() {
 
             <div className="flex items-start gap-4">
               <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
-              <p className="text-card-foreground">{t("about.point3")}</p>
+              <p className="text-card-foreground">
+                {/* Render the link for both languages using dangerouslySetInnerHTML */}
+                <span
+                  dangerouslySetInnerHTML={{
+                    __html: t("about.point3").replace(
+                      /(Engineering Services & Design \|Neilsoft|Инженерные услуги и проектирование \|Neilsoft)/g,
+                      '<a href="https://neilsoft.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
+                    ),
+                  }}
+                />
+              </p>
             </div>
           </div>
         </div>

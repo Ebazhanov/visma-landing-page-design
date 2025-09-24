@@ -83,7 +83,7 @@ const translations = {
     "vision.tagline": "VISMA, Customers and Suppliers Partners...Working Together.",
 
     // Value Section
-    "value.title": "Our Value",
+    "value.title": "Why Visma?",
     "value.subtitle": "We're here to serve you, the ones who get it done!",
     "value.reliability.title": "RELIABILITY",
     "value.reliability.point1": "Excellent references",
@@ -189,7 +189,7 @@ const translations = {
     "vision.tagline": "VISMA, клиенты и поставщики-партнеры... Работаем вместе.",
 
     // Value Section
-    "value.title": "Наши ценности",
+    "value.title": "Почему Visma?",
     "value.subtitle": "Мы здесь, чтобы служить вам, тем, кто добивается результатов!",
     "value.reliability.title": "НАДЕЖНОСТЬ",
     "value.reliability.point1": "Отличные рекомендации",

@@ -53,14 +53,24 @@ export function PartnershipSection() {
                     <span>{t("partnership.flexatec.feature2")}</span>
                   </li>
                 </ul>
-                <div className="mt-4 pt-3 border-t border-gray-200">
+                <div className="mt-4 pt-3 border-t border-gray-200 flex flex-col sm:flex-row gap-2 sm:gap-4 items-start sm:items-center">
                   <a
                     href="https://neilsoft.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                    className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                    style={{ wordBreak: 'break-word' }}
                   >
-                    {t("partnership.flexatec.visitNeilsoft")}
+                    Engineering Services & Design | Neilsoft
+                  </a>
+                  <a
+                    href="https://neilsoft.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-semibold transition-colors"
+                    style={{ minWidth: '100px', textAlign: 'center' }}
+                  >
+                    PARTNER
                   </a>
                 </div>
               </div>

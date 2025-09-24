@@ -21,7 +21,7 @@ export function Header() {
             Our Vision
           </a>
           <a href="#value" className="hover:text-accent transition-colors">
-            Our Value
+            Why Visma?
           </a>
           <a href="#contact" className="hover:text-accent transition-colors">
             {t("nav.contact")}
