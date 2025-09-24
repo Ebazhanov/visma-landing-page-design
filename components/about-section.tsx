@@ -55,9 +55,15 @@ export function AboutSection() {
                 </div>
               </div>
               <div className="flex-shrink-0">
-                <div className="w-24 h-16 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-lg flex items-center justify-center">
-                  <span className="text-secondary font-bold text-sm">{t("about.partnerLabel")}</span>
-                </div>
+                <a
+                  href="https://neilsoft.com/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="w-24 h-16 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-lg flex items-center justify-center text-secondary font-bold text-sm hover:bg-blue-600 hover:text-white transition-colors"
+                  style={{ display: 'inline-flex', textDecoration: 'none' }}
+                >
+                  {t("about.partnerLabel")}
+                </a>
               </div>
             </div>
           </CardContent>

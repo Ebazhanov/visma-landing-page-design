@@ -63,14 +63,15 @@ export function PartnershipSection() {
                   >
                     Engineering Services & Design | Neilsoft
                   </a>
-                  <Link href="/partner" passHref legacyBehavior>
-                    <a
-                      className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-semibold transition-colors"
-                      style={{ minWidth: '100px', textAlign: 'center' }}
-                    >
-                      PARTNER
-                    </a>
-                  </Link>
+                  <a
+                    href="https://neilsoft.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-semibold transition-colors"
+                    style={{ minWidth: '100px', textAlign: 'center' }}
+                  >
+                    PARTNER
+                  </a>
                 </div>
               </div>
             </div>
