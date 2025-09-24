@@ -1,6 +1,5 @@
 "use client"
 
-import { Button } from "@/components/ui/button"
 import { useLanguage } from "@/contexts/language-context"
 
 export function HeroSection() {
@@ -28,12 +27,7 @@ export function HeroSection() {
           {t("hero.description")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <Button size="lg" className="bg-secondary hover:bg-secondary/90 text-sm sm:text-base">
-            {t("hero.exploreProducts")}
-          </Button>
-          <Button size="lg" variant="outline" className="text-sm sm:text-base bg-transparent">
-            {t("hero.contactUs")}
-          </Button>
+          {/* Removed Explore Products and Contact Us buttons */}
         </div>
       </div>
     </section>
