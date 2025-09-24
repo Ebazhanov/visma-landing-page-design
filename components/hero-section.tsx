@@ -11,7 +11,7 @@ export function HeroSection() {
       <div
         className="absolute inset-0 bg-cover bg-center bg-no-repeat opacity-40 scale-105"
         style={{
-          backgroundImage: "url('/images/visma-hero.png')",
+          backgroundImage: "url('/images/global-logistics.png')",
           filter: "brightness(1.2) contrast(1.1)",
         }}
       />
