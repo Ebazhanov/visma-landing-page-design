@@ -22,24 +22,24 @@ const translations = {
     // Hero Section
     "hero.tagline": "Global Reach. Local Advantage.",
     "hero.description":
-      "Your trusted partner for MRO Mechanical, Electrical parts, Equipment and engineering solutions across Russia and beyond.",
+      "Your trusted partner for Mechanical, Electrical parts, Equipment and engineering solutions across Russia and beyond.",
     "hero.exploreProducts": "Explore Products",
     "hero.contactUs": "Contact Us",
 
     // About Section
     "about.title": "Who we are...",
     "about.description":
-      "VISMA is a flexible, trustful and financially strong technical MRO supplier. We are established as a spare parts supplier, now a fast-growing company in the wholesale market throughout Russia. We offer MRO Mechanical, Electrical parts, Equipment and engineering solutions with partner Neilsoft Engineering India.",
-    "about.point1": "VISMA is a flexible, trustful and financially strong technical MRO supplier.",
+      "VISMA is a flexible, trustful and financially strong technical supplier. We are established as a spare parts supplier, now a fast-growing company in the wholesale market throughout Russia. We offer Mechanical, Electrical parts, Equipment and engineering solutions with partner Neilsoft Engineering India.",
+    "about.point1": "VISMA is a flexible, trustful and financially strong technical supplier.",
     "about.point2":
       "Established as a supplier of spare parts, VISMA is now a fast-growing company in the wholesale market throughout Russia.",
     "about.point3":
-      "We offer our customers MRO Mechanical, Electrical parts, Equipment as well as engineering solutions together with our partner Neilsoft Engineering India (Engineering Services & Design |Neilsoft) to deliver efficient solutions to our esteemed customers.",
+      "We offer our customers Mechanical, Electrical parts, Equipment as well as engineering solutions together with our partner Neilsoft Engineering India (Engineering Services & Design |Neilsoft) to deliver efficient solutions to our esteemed customers.",
     "about.partner": "Neilsoft",
     "about.partnerServices":
       "Industrial Machinery & Equipment | Manufacturing Automation | Bulk Material handling | General Engineering & Fabrication",
     "about.partnerLabel": "PARTNER",
-    "about.services.mro": "MRO Mechanical",
+    "about.services.mro": "Mechanical",
     "about.services.mroDesc": "Comprehensive mechanical parts and solutions",
     "about.services.electrical": "Electrical Parts",
     "about.services.electricalDesc": "Quality electrical components and systems",
@@ -77,7 +77,7 @@ const translations = {
 
     // Vision Section
     "vision.title": "Our Vision",
-    "vision.point1": "Complete support and handling of the total need of MRO parts and projects for our customers.",
+    "vision.point1": "Complete support and handling of the total need of parts and projects for our customers.",
     "vision.point2":
       "To find together with our customer the optimal supply chain to supply based on the lowest possible costs.",
     "vision.tagline": "VISMA, Customers and Suppliers Partners...Working Together.",
@@ -91,7 +91,7 @@ const translations = {
     "value.team.title": "TEAM",
     "value.team.point1":
       "Professional Team with 15+ years international experience in FMCG companies to support your needs!",
-    "value.team.point2": "Procurement MRO Category Management Support to maximize your business profitability.",
+    "value.team.point2": "Procurement Category Management Support to maximize your business profitability.",
     "value.supply.title": "SUPPLY",
     "value.supply.point1": "Products, YOU ask we supply.",
     "value.supply.point2": "Developed supply network (India, China, LAO, NA).",
@@ -102,9 +102,9 @@ const translations = {
 
     // Contact Section
     "contact.title": "Contact Us",
-    "contact.subtitle": "Get in touch with our team for all your MRO needs",
+    "contact.subtitle": "Get in touch with our team for all your needs",
     "contact.email": "Email",
-    "contact.getInTouch": "Get in touch with our team for all your MRO needs",
+    "contact.getInTouch": "Get in touch with our team for all your needs",
     "contact.office.title": "Our Office",
     "contact.office.address": "Stupino, Moscow Region, Russia",
     "contact.office.fullAddress": "Industrial District, Stupino, Moscow Region, 142800, Russia",
@@ -113,10 +113,10 @@ const translations = {
     "contact.office.viewOnMaps": "View on Yandex Maps",
 
     // Footer
-    "footer.description": "Your trusted technical MRO supplier with global reach and local advantage.",
+    "footer.description": "Your trusted technical supplier with global reach and local advantage.",
     "footer.quickLinks": "Quick Links",
     "footer.services": "Services",
-    "footer.services.mro": "MRO Parts",
+    "footer.services.mro": "Parts",
     "footer.services.electrical": "Electrical Components",
     "footer.services.engineering": "Engineering Solutions",
     "footer.services.consulting": "Consulting",
@@ -135,24 +135,24 @@ const translations = {
     // Hero Section
     "hero.tagline": "Глобальный охват. Локальные преимущества.",
     "hero.description":
-      "Ваш надежный партнер в области MRO механических, электрических деталей, оборудования и инженерных решений по всей России и за ее пределами.",
+      "Ваш надежный партнер в области механических, электрических деталей, оборудования и инженерных решений по всей России и за ее пределами.",
     "hero.exploreProducts": "Изучить продукцию",
     "hero.contactUs": "Связаться с нами",
 
     // About Section
     "about.title": "Кто мы...",
     "about.description":
-      "VISMA - это гибкий, надежный и финансово стабильный поставщик технических MRO решений. Мы зарекомендовали себя как поставщик запасных частей, теперь быстрорастущая компания на оптовом рынке по всей России. Мы предлагаем MRO механические, электрические детали, оборудование и инженерные решения в партнерстве с Neilsoft Engineering India.",
-    "about.point1": "VISMA - это гибкий, надежный и финансово стабильный поставщик технических MRO решений.",
+      "VISMA - это гибкий, надежный и финансово стабильный поставщик технических решений. Мы зарекомендовали себя как поставщик запасных частей, теперь быстрорастущая компания на оптовом рынке по всей России. Мы предлагаем механические, электрические детали, оборудование и инженерные решения в партнерстве с Neilsoft Engineering India.",
+    "about.point1": "VISMA - это гибкий, надежный и финансово стабильный поставщик технических решений.",
     "about.point2":
       "Зарекомендовав себя как поставщик запасных частей, VISMA теперь является быстрорастущей компанией на оптовом рынке по всей России.",
     "about.point3":
-      "Мы предлагаем нашим клиентам MRO механические, электрические детали, оборудование, а также инженерные решения вместе с нашим партнером Neilsoft Engineering India (Инженерные услуги и проектирование |Neilsoft) для предоставления эффективных решений нашим уважаемым клиентам.",
+      "Мы предлагаем нашим клиентам механические, электрические детали, оборудование, а также инженерные решения вместе с нашим партнером Neilsoft Engineering India (Инженерные услуги и проектирование |Neilsoft) для предоставления эффективных решений нашим уважаемым клиентам.",
     "about.partner": "Neilsoft",
     "about.partnerServices":
       "Промышленное оборудование и машины | Автоматизация производства | Обработка сыпучих материалов | Общее машиностроение и изготовление",
     "about.partnerLabel": "ПАРТНЕР",
-    "about.services.mro": "MRO Механика",
+    "about.services.mro": "Механика",
     "about.services.mroDesc": "Комплексные механические детали и решения",
     "about.services.electrical": "Электрические детали",
     "about.services.electricalDesc": "Качественные электрические компоненты и системы",
@@ -190,7 +190,7 @@ const translations = {
 
     // Vision Section
     "vision.title": "Наша миссия",
-    "vision.point1": "Полная поддержка и обработка всех потребностей в MRO деталях и проектах для наших клиентов.",
+    "vision.point1": "Полная поддержка и обработка всех потребностей в деталях и проектах для наших клиентов.",
     "vision.point2":
       "Найти вместе с нашим клиентом оптимальную цепочку поставок для обеспечения поставок по максимально низким затратам.",
     "vision.tagline": "VISMA, клиенты и поставщики-партнеры... Работаем вместе.",
@@ -204,7 +204,7 @@ const translations = {
     "value.team.title": "КОМАНДА",
     "value.team.point1":
       "Профессиональная команда с 15+ летним международным опытом в FMCG компаниях для поддержки ваших потребностей!",
-    "value.team.point2": "Поддержка управления категорией закупок MRO для максимизации прибыльности вашего бизнеса.",
+    "value.team.point2": "Поддержка управления категорией закупок для максимизации прибыльности вашего бизнеса.",
     "value.supply.title": "ПОСТАВКИ",
     "value.supply.point1": "Продукты, которые ВЫ просите - мы поставляем.",
     "value.supply.point2": "Развитая сеть поставок (Индия, Китай, ЛАО, СА).",
@@ -215,9 +215,9 @@ const translations = {
 
     // Contact Section
     "contact.title": "Свяжитесь с нами",
-    "contact.subtitle": "Свяжитесь с нашей командой для всех ваших потребностей в MRO",
+    "contact.subtitle": "Свяжитесь с нашей командой для всех ваших потребностей",
     "contact.email": "Электронная почта",
-    "contact.getInTouch": "Свяжитесь с нашей командой для всех ваших потребностей в MRO",
+    "contact.getInTouch": "Свяжитесь с нашей командой для всех ваших потребностей",
     "contact.office.title": "Наш офис",
     "contact.office.address": "Ступино, Московская область, Россия",
     "contact.office.fullAddress": "Промышленный район, Ступино, Московская область, 142800, Россия",
@@ -227,10 +227,10 @@ const translations = {
 
     // Footer
     "footer.description":
-      "Ваш надежный поставщик технических MRO решений с глобальным охватом и локальными преимуществами.",
+      "Ваш надежный поставщик технических решений с глобальным охватом и локальными преимуществами.",
     "footer.quickLinks": "Быстрые ссылки",
     "footer.services": "Услуги",
-    "footer.services.mro": "MRO детали",
+    "footer.services.mro": "Детали",
     "footer.services.electrical": "Электрические компоненты",
     "footer.services.engineering": "Инженерные решения",
     "footer.services.consulting": "Консультации",
