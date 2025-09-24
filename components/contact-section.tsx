@@ -98,7 +98,7 @@ export function ContactSection() {
               <div className="w-full">
                 <div className="relative w-full h-64 lg:h-80 rounded-xl overflow-hidden border border-border">
                   <iframe
-                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A38.0736%2C54.8986%2C14&amp;source=constructor&amp;lang=ru_RU"
+                    src="https://yandex.ru/map-widget/v1/?ll=38.0736%2C54.8986&z=16&text=Индустриальный%20район%2C%20Ступино%2C%20Московская%20область%2C%20142800%2C%20Россия"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
@@ -110,7 +110,7 @@ export function ContactSection() {
                 </div>
                 <div className="mt-4 text-center lg:text-left">
                   <a
-                    href="https://yandex.ru/maps/?text=Ступино%2C%20Московская%20область%2C%20Россия"
+                    href="https://yandex.ru/maps/?ll=38.0736%2C54.8986&z=16&text=Индустриальный%20район%2C%20Ступино%2C%20Московская%20область%2C%20142800%2C%20Россия"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-secondary hover:text-secondary/80 transition-colors text-sm font-medium"
