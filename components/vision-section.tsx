@@ -1,7 +1,7 @@
 "use client"
 
 import { useLanguage } from "@/contexts/language-context"
-import { Target, Globe, Lightbulb, TrendingUp } from "lucide-react"
+import { Target, Globe } from "lucide-react"
 
 export function VisionSection() {
   const { t } = useLanguage()
@@ -39,19 +39,6 @@ export function VisionSection() {
                 <div className="flex-1">
                   <p className="text-lg text-card-foreground leading-relaxed font-medium">{t("vision.point2")}</p>
                 </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="text-center">
-            <div className="relative inline-block">
-              <div className="absolute -inset-4 bg-gradient-to-r from-primary/20 to-secondary/20 rounded-2xl blur-xl"></div>
-              <div className="relative bg-card border border-border rounded-2xl px-8 py-6 shadow-lg">
-                <div className="flex items-center justify-center space-x-3 mb-2">
-                  <Lightbulb className="w-6 h-6 text-primary" />
-                  <TrendingUp className="w-6 h-6 text-secondary" />
-                </div>
-                <p className="text-2xl font-bold text-foreground italic text-balance">{t("vision.tagline")}</p>
               </div>
             </div>
           </div>

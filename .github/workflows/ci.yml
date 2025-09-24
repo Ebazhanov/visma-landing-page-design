@@ -23,6 +23,6 @@ jobs:
       - name: Install dependencies
         run: pnpm install
       - name: Run linter
-        run: pnpm lint
+        run: npx next lint
       - name: Debug ESLint config
         run: npx eslint --print-config ./app/page.tsx || true
