@@ -102,8 +102,14 @@ const translations = {
 
     // Contact Section
     "contact.title": "Contact Us",
+    "contact.subtitle": "Get in touch with our team for all your MRO needs",
     "contact.email": "Email",
     "contact.getInTouch": "Get in touch with our team for all your MRO needs",
+    "contact.office.title": "Our Office",
+    "contact.office.address": "Stupino, Moscow Region, Russia",
+    "contact.office.fullAddress": "Industrial District, Stupino, Moscow Region, 142800, Russia",
+    "contact.office.description":
+      "Serving clients globally with local expertise in industrial equipment and engineering solutions",
 
     // Footer
     "footer.description": "Your trusted technical MRO supplier with global reach and local advantage.",
@@ -208,8 +214,14 @@ const translations = {
 
     // Contact Section
     "contact.title": "Свяжитесь с нами",
+    "contact.subtitle": "Свяжитесь с нашей командой для всех ваших потребностей в MRO",
     "contact.email": "Электронная почта",
     "contact.getInTouch": "Свяжитесь с нашей командой для всех ваших потребностей в MRO",
+    "contact.office.title": "Наш офис",
+    "contact.office.address": "Ступино, Московская область, Россия",
+    "contact.office.fullAddress": "Промышленный район, Ступино, Московская область, 142800, Россия",
+    "contact.office.description":
+      "Обслуживаем клиентов по всему миру с местной экспертизой в области промышленного оборудования и инженерных решений",
 
     // Footer
     "footer.description":
