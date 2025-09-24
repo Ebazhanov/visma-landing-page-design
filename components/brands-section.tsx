@@ -27,7 +27,7 @@ export function BrandsSection() {
   ]
 
   return (
-    <section className="py-20 bg-gradient-to-b from-slate-50 to-white">
+    <section id="products" className="py-20 bg-gradient-to-b from-slate-50 to-white">
       <div className="container mx-auto px-4">
         {/* Product Range Section */}
         <div className="mb-16">
