@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { useLanguage } from "@/contexts/language-context"
-import Link from "next/link"
 
 export function PartnershipSection() {
   const { t } = useLanguage()
@@ -59,7 +58,8 @@ export function PartnershipSection() {
                     href="https://neilsoft.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-blue-600 underline hover:text-blue-800 text-sm font-semibold transition-colors"
+                    className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                    style={{ wordBreak: 'break-word' }}
                   >
                     Engineering Services & Design | Neilsoft
                   </a>
