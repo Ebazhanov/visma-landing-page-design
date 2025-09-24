@@ -110,6 +110,7 @@ const translations = {
     "contact.office.fullAddress": "Industrial District, Stupino, Moscow Region, 142800, Russia",
     "contact.office.description":
       "Serving clients globally with local expertise in industrial equipment and engineering solutions",
+    "contact.office.viewOnMaps": "View on Yandex Maps",
 
     // Footer
     "footer.description": "Your trusted technical MRO supplier with global reach and local advantage.",
@@ -222,6 +223,7 @@ const translations = {
     "contact.office.fullAddress": "Промышленный район, Ступино, Московская область, 142800, Россия",
     "contact.office.description":
       "Обслуживаем клиентов по всему миру с местной экспертизой в области промышленного оборудования и инженерных решений",
+    "contact.office.viewOnMaps": "Посмотреть на Яндекс Картах",
 
     // Footer
     "footer.description":

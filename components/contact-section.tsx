@@ -98,26 +98,25 @@ export function ContactSection() {
               <div className="w-full">
                 <div className="relative w-full h-64 lg:h-80 rounded-xl overflow-hidden border border-border">
                   <iframe
-                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2321.8!2d38.0736!3d54.8986!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2zNTTCsDUzJzU1LjAiTiAzOMKwMDQnMjUuMCJF!5e0!3m2!1sen!2sru!4v1234567890"
+                    src="https://yandex.ru/map-widget/v1/?um=constructor%3A38.0736%2C54.8986%2C14&amp;source=constructor&amp;lang=ru_RU"
                     width="100%"
                     height="100%"
                     style={{ border: 0 }}
                     allowFullScreen
                     loading="lazy"
-                    referrerPolicy="no-referrer-when-downgrade"
                     title="VISMA Office Location in Stupino, Moscow Region"
                     className="rounded-xl"
                   />
                 </div>
                 <div className="mt-4 text-center lg:text-left">
                   <a
-                    href="https://maps.google.com/?q=Stupino,Moscow+Region,Russia"
+                    href="https://yandex.ru/maps/?text=Ступино%2C%20Московская%20область%2C%20Россия"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-secondary hover:text-secondary/80 transition-colors text-sm font-medium"
                   >
                     <MapPin className="w-4 h-4 mr-2" />
-                    View on Google Maps
+                    {t("contact.office.viewOnMaps")}
                   </a>
                 </div>
               </div>
