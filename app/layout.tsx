@@ -1,7 +1,5 @@
 import type React from "react"
 import type { Metadata } from "next"
-import { GeistSans } from "geist/font/sans"
-import { GeistMono } from "geist/font/mono"
 import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/contexts/language-context"
 import { Suspense } from "react"
@@ -20,7 +18,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`font-sans ${GeistSans.variable} ${GeistMono.variable}`}>
+      <body style={{ fontFamily: 'system-ui, sans-serif' }}>
         <Suspense fallback={null}>
           <LanguageProvider>{children}</LanguageProvider>
         </Suspense>
