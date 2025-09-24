@@ -2,7 +2,6 @@
 
 import Image from "next/image"
 import { useLanguage } from "@/contexts/language-context"
-import Link from "next/link"
 
 export function PartnershipSection() {
   const { t } = useLanguage()
@@ -59,18 +58,20 @@ export function PartnershipSection() {
                     href="https://neilsoft.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block text-blue-600 underline hover:text-blue-800 text-sm font-semibold transition-colors"
+                    className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
+                    style={{ wordBreak: 'break-word' }}
                   >
                     Engineering Services & Design | Neilsoft
                   </a>
-                  <Link href="/partner" passHref legacyBehavior>
-                    <a
-                      className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-semibold transition-colors"
-                      style={{ minWidth: '100px', textAlign: 'center' }}
-                    >
-                      PARTNER
-                    </a>
-                  </Link>
+                  <a
+                    href="https://neilsoft.com/"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-semibold transition-colors"
+                    style={{ minWidth: '100px', textAlign: 'center' }}
+                  >
+                    PARTNER
+                  </a>
                 </div>
               </div>
             </div>

@@ -18,10 +18,10 @@ export function Header() {
             {t("nav.partnerships")}
           </a>
           <a href="#vision" className="hover:text-accent transition-colors">
-            {t("nav.vision")}
+            Our Vision
           </a>
           <a href="#value" className="hover:text-accent transition-colors">
-            {t("nav.value")}
+            Why Visma?
           </a>
           <a href="#contact" className="hover:text-accent transition-colors">
             {t("nav.contact")}
