@@ -21,9 +21,9 @@ export function HeroSection() {
 
       {/* Content Overlay */}
       <div className="relative z-10 max-w-4xl mx-auto px-6 text-center">
-        <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold text-primary mb-6 text-balance">VISMA</h1>
-        <p className="text-lg sm:text-xl md:text-2xl text-foreground mb-8 text-balance">{t("hero.tagline")}</p>
-        <p className="text-base sm:text-lg text-muted-foreground mb-12 max-w-2xl mx-auto text-pretty">
+        <h1 className="text-5xl sm:text-7xl md:text-8xl lg:text-9xl font-bold text-primary mb-8 text-balance">VISMA</h1>
+        <p className="text-2xl sm:text-3xl md:text-4xl text-foreground mb-10 text-balance">{t("hero.tagline")}</p>
+        <p className="text-lg sm:text-2xl md:text-3xl text-muted-foreground mb-16 max-w-3xl mx-auto text-pretty">
           {t("hero.description")}
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
