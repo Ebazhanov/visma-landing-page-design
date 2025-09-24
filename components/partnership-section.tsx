@@ -19,7 +19,7 @@ export function PartnershipSection() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="p-6">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900">{t("partnership.flexatec.title")}</h3>
+                <h3 className="text-2xl font-semibold text-gray-900">{t("partnership.flexatec.title")}</h3>
                 <div className="flex items-center">
                   <Image
                     src="/images/brands/flexatec.png"
@@ -30,27 +30,27 @@ export function PartnershipSection() {
                   />
                 </div>
               </div>
-              <div className="space-y-3 text-sm text-gray-700">
-                <p className="font-medium text-orange-600">{t("partnership.flexatec.description")}</p>
-                <div className="mb-2">
-                  <span className="font-semibold text-gray-800">{t("partnership.flexatec.features")}</span>
+              <div className="space-y-4 text-base text-gray-700">
+                <p className="font-medium text-orange-600 text-lg">{t("partnership.flexatec.description")}</p>
+                <div className="mb-3">
+                  <span className="font-semibold text-gray-800 text-lg">{t("partnership.flexatec.features")}</span>
                 </div>
-                <ul className="space-y-2">
+                <ul className="space-y-3">
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span>{t("partnership.flexatec.feature4")}</span>
+                    <span className="text-base">{t("partnership.flexatec.feature4")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span>{t("partnership.flexatec.feature1")}</span>
+                    <span className="text-base">{t("partnership.flexatec.feature1")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span>{t("partnership.flexatec.feature3")}</span>
+                    <span className="text-base">{t("partnership.flexatec.feature3")}</span>
                   </li>
                   <li className="flex items-start">
                     <span className="w-2 h-2 bg-green-500 rounded-full mt-2 mr-3 flex-shrink-0"></span>
-                    <span>{t("partnership.flexatec.feature2")}</span>
+                    <span className="text-base">{t("partnership.flexatec.feature2")}</span>
                   </li>
                 </ul>
                 <div className="mt-4 pt-3 border-t border-gray-200 flex flex-col sm:flex-row gap-2 sm:gap-4 items-start sm:items-center">
@@ -58,8 +58,8 @@ export function PartnershipSection() {
                     href="https://neilsoft.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 text-sm font-medium underline"
-                    style={{ wordBreak: 'break-word' }}
+                    className="text-blue-600 hover:text-blue-800 text-base font-medium underline"
+                    style={{ wordBreak: "break-word" }}
                   >
                     Engineering Services & Design | Neilsoft
                   </a>
@@ -67,8 +67,8 @@ export function PartnershipSection() {
                     href="https://neilsoft.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-sm font-semibold transition-colors"
-                    style={{ minWidth: '100px', textAlign: 'center' }}
+                    className="inline-block px-4 py-2 bg-blue-600 text-white rounded hover:bg-blue-700 text-base font-semibold transition-colors"
+                    style={{ minWidth: "100px", textAlign: "center" }}
                   >
                     PARTNER
                   </a>
@@ -81,19 +81,19 @@ export function PartnershipSection() {
           <div className="bg-white rounded-lg shadow-lg overflow-hidden">
             <div className="p-6">
               <div className="flex items-center justify-between mb-4">
-                <h3 className="text-xl font-semibold text-gray-900">{t("partnership.abix.title")}</h3>
+                <h3 className="text-2xl font-semibold text-gray-900">{t("partnership.abix.title")}</h3>
                 <div className="flex items-center">
                   <span className="text-red-600 font-bold text-lg">ABIX</span>
                   <span className="text-gray-600 text-sm ml-1">CORPORATION</span>
                 </div>
               </div>
-              <div className="space-y-3 text-sm text-gray-700">
-                <p className="font-medium text-blue-600">{t("partnership.abix.subtitle")}</p>
-                <div className="mb-2">
-                  <span className="font-semibold text-gray-800">{t("partnership.abix.features")}</span>
+              <div className="space-y-4 text-base text-gray-700">
+                <p className="font-medium text-blue-600 text-lg">{t("partnership.abix.subtitle")}</p>
+                <div className="mb-3">
+                  <span className="font-semibold text-gray-800 text-lg">{t("partnership.abix.features")}</span>
                 </div>
-                <div className="grid grid-cols-2 gap-2 text-xs">
-                  <ul className="space-y-1">
+                <div className="grid grid-cols-1 gap-3 text-base">
+                  <ul className="space-y-2">
                     <li>• {t("partnership.abix.feature1")}</li>
                     <li>• {t("partnership.abix.feature2")}</li>
                     <li>• {t("partnership.abix.feature3")}</li>
@@ -105,7 +105,7 @@ export function PartnershipSection() {
                     href="https://abixcorp.com/"
                     target="_blank"
                     rel="noopener noreferrer"
-                    className="text-blue-600 hover:text-blue-800 text-sm font-medium"
+                    className="text-blue-600 hover:text-blue-800 text-base font-medium"
                   >
                     Visit abixcorp.com →
                   </a>
