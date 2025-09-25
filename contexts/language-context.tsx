@@ -23,7 +23,7 @@ const translations = {
     // Hero Section
     "hero.tagline": "Global Reach. Local Advantage.",
     "hero.description":
-      "Your trusted partner for Mechanical, Electrical parts, Equipment and engineering solutions across Russia and beyond.",
+      "Your trusted partner for Mechanical, Electrical parts, Equipment and engineering solutions across Russia.",
     "hero.exploreProducts": "Explore Products",
     "hero.contactUs": "LET’S CONNECT",
 
@@ -136,8 +136,7 @@ const translations = {
 
     // Hero Section
     "hero.tagline": "Глобальный охват. Локальные преимущества.",
-    "hero.description":
-      "Ваш надежный партнер в области механических, электрических деталей, оборудования и инженерных решений по всей России и за ее пределами.",
+    "hero.description": "Ваш надежный партнер в области механических, электрических деталей, оборудования и инженерных решений по всей России.",
     "hero.exploreProducts": "Изучить продукцию",
     "hero.contactUs": "СВЯЖИТЕСЬ С НАМИ",
 
