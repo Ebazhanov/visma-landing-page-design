@@ -1,30 +1,28 @@
-# Landing page design
+# 🚀 Landing Page Design
 
-*Automatically synced with your [v0.app](https://v0.app) deployments*
+[Live Website](https://vercel.com/stasandrianov9s-projects/v0-landing-page-design)
 
-[![Deployed on Vercel](https://img.shields.io/badge/Deployed%20on-Vercel-black?style=for-the-badge&logo=vercel)](https://vercel.com/stasandrianov9s-projects/v0-landing-page-design)
-[![Built with v0](https://img.shields.io/badge/Built%20with-v0.app-black?style=for-the-badge)](https://v0.app/chat/projects/K0aEcl20yGd)
+Welcome! This is a modern landing page built with React and TypeScript.
 
-## Overview
+## 🛠️ Tech Stack
+- React
+- TypeScript
+- Vercel
+- v0.app
 
-This repository will stay in sync with your deployed chats on [v0.app](https://v0.app).
-Any changes you make to your deployed app will be automatically pushed to this repository from [v0.app](https://v0.app).
+## 📦 Getting Started
 
-## Deployment
+1. Clone the repo  
+   `git clone https://github.com/stasandrianov9/v0-landing-page-design.git`
+2. Install dependencies  
+   `npm install`
+3. Run locally  
+   `npm start`
 
-Your project is live at:
+## 🤝 Contact
 
-**[https://vercel.com/stasandrianov9s-projects/v0-landing-page-design](https://vercel.com/stasandrianov9s-projects/v0-landing-page-design)**
+Feel free to reach out for feedback or collaboration!
 
-## Build your app
+---
 
-Continue building your app on:
-
-**[https://v0.app/chat/projects/K0aEcl20yGd](https://v0.app/chat/projects/K0aEcl20yGd)**
-
-## How It Works
-
-1. Create and modify your project using [v0.app](https://v0.app)
-2. Deploy your chats from the v0 interface
-3. Changes are automatically pushed to this repository
-4. Vercel deploys the latest version from this repository
+*Built and deployed with [v0.app](https://v0.app) & Vercel.*
