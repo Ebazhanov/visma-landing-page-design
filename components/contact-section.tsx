@@ -14,9 +14,23 @@ export function ContactSection() {
 
       <div className="container mx-auto px-4 relative z-10">
         <div className="max-w-6xl mx-auto">
-          <div className="text-center mb-16">
-            <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">{t("contact.title")}</h2>
-            <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">{t("contact.subtitle")}</p>
+          <div className="mb-16">
+            <div className="grid lg:grid-cols-2 gap-8 items-center">
+              <div className="text-center lg:text-left">
+                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">{t("contact.title")}</h2>
+                <p className="text-xl text-muted-foreground leading-relaxed">{t("contact.subtitle")}</p>
+              </div>
+              <div className="flex justify-center lg:justify-end">
+                <div className="relative">
+                  <img
+                    src="/images/connect-communication.png"
+                    alt="Digital communication and connectivity"
+                    className="w-80 h-60 object-cover rounded-2xl shadow-lg"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-2xl"></div>
+                </div>
+              </div>
+            </div>
           </div>
 
           <div className="flex justify-center">
