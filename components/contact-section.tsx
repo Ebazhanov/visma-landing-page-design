@@ -16,11 +16,11 @@ export function ContactSection() {
         <div className="max-w-6xl mx-auto">
           <div className="mb-16">
             <div className="grid lg:grid-cols-2 gap-8 items-center">
-              <div className="text-center lg:text-left">
-                <h2 className="text-4xl md:text-5xl font-bold mb-6 text-primary">{t("contact.title")}</h2>
-                <p className="text-xl text-muted-foreground leading-relaxed">{t("contact.subtitle")}</p>
+              <div className="flex flex-col items-center justify-center text-center w-full lg:items-end lg:text-right lg:pr-8">
+                <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">{t("contact.title")}</h2>
+                <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">{t("contact.subtitle")}</p>
               </div>
-              <div className="flex justify-center lg:justify-end">
+              <div className="flex justify-center lg:justify-start">
                 <div className="relative">
                   <img
                     src="/images/connect-communication.png"
