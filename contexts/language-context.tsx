@@ -16,7 +16,7 @@ const translations = {
     "nav.about": "About Us",
     "nav.products": "Products",
     "nav.partnerships": "Partnerships",
-    "nav.contact": "Contact",
+    "nav.contact": "LET’S CONNECT",
     "nav.getQuote": "Get Quote",
     "nav.mission": "Our Mission",
 
@@ -25,7 +25,7 @@ const translations = {
     "hero.description":
       "Your trusted partner for Mechanical, Electrical parts, Equipment and engineering solutions across Russia and beyond.",
     "hero.exploreProducts": "Explore Products",
-    "hero.contactUs": "Contact Us",
+    "hero.contactUs": "LET’S CONNECT",
 
     // About Section
     "about.title": "Who we are...",
@@ -102,7 +102,7 @@ const translations = {
       "Supporting to meet your Savings targets (Cost Avoidance, Cost Reduction/TCO, Working Capital).",
 
     // Contact Section
-    "contact.title": "Contact Us",
+    "contact.title": "LET’S CONNECT",
     "contact.subtitle": "Get in touch with our team for all your needs",
     "contact.email": "Email",
     "contact.getInTouch": "Get in touch with our team for all your needs",
@@ -121,7 +121,7 @@ const translations = {
     "footer.services.electrical": "Electrical Components",
     "footer.services.engineering": "Engineering Solutions",
     "footer.services.consulting": "Consulting",
-    "footer.contact": "Contact",
+    "footer.contact": "LET’S CONNECT",
     "footer.partnershipInquiries": "Partnership Inquiries",
     "footer.rights": "All rights reserved. Global Reach. Local Advantage.",
   },
@@ -130,7 +130,7 @@ const translations = {
     "nav.about": "О нас",
     "nav.products": "Продукция",
     "nav.partnerships": "Партнерство",
-    "nav.contact": "Контакты",
+    "nav.contact": "СВЯЖИТЕСЬ С НАМИ",
     "nav.getQuote": "Получить предложение",
     "nav.mission": "Наша миссия",
 
@@ -139,7 +139,7 @@ const translations = {
     "hero.description":
       "Ваш надежный партнер в области механических, электрических деталей, оборудования и инженерных решений по всей России и за ее пределами.",
     "hero.exploreProducts": "Изучить продукцию",
-    "hero.contactUs": "Связаться с нами",
+    "hero.contactUs": "СВЯЖИТЕСЬ С НАМИ",
 
     // About Section
     "about.title": "Кто мы...",
@@ -216,7 +216,7 @@ const translations = {
       "Поддержка в достижении ваших целей по экономии (предотвращение затрат, снижение затрат/TCO, оборотный капитал).",
 
     // Contact Section
-    "contact.title": "Свяжитесь с нами",
+    "contact.title": "СВЯЖИТЕСЬ С НАМИ",
     "contact.subtitle": "Свяжитесь с нашей командой для всех ваших потребностей",
     "contact.email": "Электронная почта",
     "contact.getInTouch": "Свяжитесь с нашей командой для всех ваших потребностей",
@@ -236,7 +236,7 @@ const translations = {
     "footer.services.electrical": "Электрические компоненты",
     "footer.services.engineering": "Инженерные решения",
     "footer.services.consulting": "Консультации",
-    "footer.contact": "Контакты",
+    "footer.contact": "СВЯЖИТЕСЬ С НАМИ",
     "footer.partnershipInquiries": "Запросы о партнерстве",
     "footer.rights": "Все права защищены. Глобальный охват. Локальные преимущества.",
   },
