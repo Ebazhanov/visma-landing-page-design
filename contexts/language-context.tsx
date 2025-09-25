@@ -65,7 +65,7 @@ const translations = {
     "partnership.flexatec.feature2": "Eco-friendly adhesive backing",
     "partnership.flexatec.feature3": "FDA compliant materials",
     "partnership.flexatec.feature4": "Easy glue removal properties",
-    "partnership.flexatec.visitNeilsoft": "Visit neilsoft.com →",
+    "partnership.flexatec.visitNeilsoft": "Visit felexatec.com.ar →",
     "partnership.abix.title": "VISMA is official Supplier of ABIX belting products",
     "partnership.abix.description":
       "Comprehensive range of timing belts and special conveyor belts including Neoprene, Urethane, V-Belts, Timing Pulleys, and industrial accessories.",
@@ -179,7 +179,7 @@ const translations = {
     "partnership.flexatec.feature2": "Экологичная клеевая основа",
     "partnership.flexatec.feature3": "Материалы, соответствующие FDA",
     "partnership.flexatec.feature4": "Легкое удаление клея",
-    "partnership.flexatec.visitNeilsoft": "Посетить neilsoft.com →",
+    "partnership.flexatec.visitNeilsoft": "Посетить felexatec.com.ar →",
     "partnership.abix.title": "VISMA является официальным поставщиком ременной продукции ABIX",
     "partnership.abix.description":
       "Полный ассортимент зубчатых ремней и специальных конвейерных лент, включая неопрен, полиуретан, клиновые ремни, зубчатые шкивы и промышленные аксессуары.",

@@ -35,7 +35,7 @@ export function AboutSection() {
                   dangerouslySetInnerHTML={{
                     __html: t("about.point3").replace(
                       /(Engineering Services & Design \|Neilsoft|Инженерные услуги и проектирование \|Neilsoft)/g,
-                      '<a href="https://neilsoft.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
+                      '<a href="https://felexatec.com.ar/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
                     ),
                   }}
                 />
@@ -56,7 +56,7 @@ export function AboutSection() {
               </div>
               <div className="flex-shrink-0">
                 <a
-                  href="https://neilsoft.com/"
+                  href="https://felexatec.com.ar/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 h-16 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-lg flex items-center justify-center text-secondary font-bold text-sm hover:bg-blue-600 hover:text-white transition-colors"
