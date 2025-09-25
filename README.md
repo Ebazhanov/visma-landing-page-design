@@ -1,6 +1,7 @@
 # 🚀 Landing Page Design
 
-[Live Website](https://vercel.com/stasandrianov9s-projects/v0-landing-page-design)
+[![Live Website](https://img.shields.io/badge/website-online-brightgreen)](https://vercel.com/stasandrianov9s-projects/v0-landing-page-design)
+[![Deploy on Vercel](https://img.shields.io/badge/deployed%20on-vercel-black?logo=vercel)](https://vercel.com/)
 
 Welcome! This is a modern landing page built with React and TypeScript.
 
@@ -22,7 +23,3 @@ Welcome! This is a modern landing page built with React and TypeScript.
 ## 🤝 Contact
 
 Feel free to reach out for feedback or collaboration!
-
----
-
-*Built and deployed with [v0.app](https://v0.app) & Vercel.*
