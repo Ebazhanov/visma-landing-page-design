@@ -1,6 +1,6 @@
 "use client"
 
-import { Mail, Phone, MapPin, Clock } from "lucide-react"
+import { Mail, Phone, MapPin } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function ContactSection() {
@@ -19,62 +19,52 @@ export function ContactSection() {
             <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">{t("contact.subtitle")}</p>
           </div>
 
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-6 mb-12">
-            <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
-              <div className="flex items-center justify-center mb-4">
-                <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
-                  <Mail className="w-6 h-6 text-secondary" />
+          <div className="flex justify-center">
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 w-full max-w-3xl">
+              {/* General Inquiries */}
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-secondary" />
+                  </div>
                 </div>
+                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">General Inquiries</h3>
+                <a
+                  href="mailto:visma@ooovisma.ru"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
+                >
+                  visma@ooovisma.ru
+                </a>
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">General Inquiries</h3>
-              <a
-                href="mailto:visma@ooovisma.ru"
-                className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
-              >
-                visma@ooovisma.ru
-              </a>
-            </div>
-
-            <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
-              <div className="flex items-center justify-center mb-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                  <Mail className="w-6 h-6 text-primary" />
+              {/* Management */}
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
+                    <Mail className="w-6 h-6 text-primary" />
+                  </div>
                 </div>
+                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Management</h3>
+                <a
+                  href="mailto:manager@ooovisma.ru"
+                  className="text-primary hover:text-primary/80 transition-colors text-sm block text-center break-all"
+                >
+                  manager@ooovisma.ru
+                </a>
               </div>
-              <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Management</h3>
-              <a
-                href="mailto:manager@ooovisma.ru"
-                className="text-primary hover:text-primary/80 transition-colors text-sm block text-center break-all"
-              >
-                manager@ooovisma.ru
-              </a>
-            </div>
-
-            <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
-              <div className="flex items-center justify-center mb-4">
-                <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
-                  <Phone className="w-6 h-6 text-secondary" />
+              {/* Phone */}
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+                <div className="flex items-center justify-center mb-4">
+                  <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
+                    <Phone className="w-6 h-6 text-secondary" />
+                  </div>
                 </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Phone</h3>
-              <a
-                href="tel:+74951234567"
-                className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center"
-              >
-                +7 (495) 123-45-67
-              </a>
-            </div>
-
-            <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
-              <div className="flex items-center justify-center mb-4">
-                <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                  <Clock className="w-6 h-6 text-primary" />
-                </div>
-              </div>
-              <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Business Hours</h3>
-              <div className="text-primary text-sm text-center">
-                <div>Mon - Fri</div>
-                <div>9:00 - 18:00 MSK</div>
+                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Phone</h3>
+                <a
+                  href="tel:+74951234567"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center"
+                >
+                  +7 (495) 123-45-67
+                </a>
               </div>
             </div>
           </div>
