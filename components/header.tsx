@@ -17,8 +17,8 @@ export function Header() {
           <a href="#partnerships" className="hover:text-accent transition-colors">
             {t("nav.partnerships")}
           </a>
-          <a href="#vision" className="hover:text-accent transition-colors">
-            {t("vision.title")}
+          <a href="#mission" className="hover:text-accent transition-colors">
+            {t("nav.mission")}
           </a>
           <a href="#value" className="hover:text-accent transition-colors">
             {t("value.title")}

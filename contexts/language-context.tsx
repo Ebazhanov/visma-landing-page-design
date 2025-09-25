@@ -18,6 +18,7 @@ const translations = {
     "nav.partnerships": "Partnerships",
     "nav.contact": "Contact",
     "nav.getQuote": "Get Quote",
+    "nav.mission": "Our Mission",
 
     // Hero Section
     "hero.tagline": "Global Reach. Local Advantage.",
@@ -76,7 +77,7 @@ const translations = {
     "partnership.abix.feature4": "Industrial chains & hoses",
 
     // Vision Section
-    "vision.title": "Our Vision",
+    "vision.title": "Our Mission",
     "vision.point1": "Complete support and handling of the total need of parts and projects for our customers.",
     "vision.point2":
       "To find together with our customer the optimal supply chain to supply based on the lowest possible costs.",
@@ -131,6 +132,7 @@ const translations = {
     "nav.partnerships": "Партнерство",
     "nav.contact": "Контакты",
     "nav.getQuote": "Получить предложение",
+    "nav.mission": "Наша миссия",
 
     // Hero Section
     "hero.tagline": "Глобальный охват. Локальные преимущества.",
