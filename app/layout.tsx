@@ -31,7 +31,7 @@ export const metadata: Metadata = {
     siteName: "VISMA",
     images: [
       {
-        url: "/images/visma-hero.png",
+        url: "https://ooovisma.ru/images/visma-hero.png",
         width: 1200,
         height: 630,
         alt: "VISMA Industrial Automation & Engineering Parts Supplier"
@@ -44,7 +44,7 @@ export const metadata: Metadata = {
     card: "summary_large_image",
     title: "VISMA – Industrial Automation & Engineering Parts Supplier",
     description: "VISMA supplies industrial automation and engineering parts, offering expert services and global partnerships.",
-    images: ["/images/visma-hero.png"]
+    images: ["https://ooovisma.ru/images/visma-hero.png"]
   }
 }
 
