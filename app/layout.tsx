@@ -6,8 +6,8 @@ import { Suspense } from "react"
 import "./globals.css"
 
 export const metadata: Metadata = {
-  title: "v0 App",
-  description: "Created with v0",
+  title: "VISMA – Industrial Automation & Engineering Parts Supplier",
+  description: "VISMA supplies industrial automation and engineering parts, offering expert services and global partnerships. Explore our innovative solutions and a wide range of leading brands in automation, logistics, and engineering.",
   generator: "v0.app",
 }
 
