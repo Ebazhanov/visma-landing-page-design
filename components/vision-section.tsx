@@ -15,6 +15,16 @@ export function VisionSection() {
             <div className="w-24 h-1 bg-gradient-to-r from-primary to-secondary mx-auto rounded-full"></div>
           </div>
 
+          {/* Mission Image */}
+          <div className="flex justify-center mb-12">
+            <img
+              src="/images/Our Mission.png"
+              alt="Our Mission"
+              className="rounded-xl shadow-lg max-w-full h-auto"
+              style={{ maxWidth: '500px' }}
+            />
+          </div>
+
           <div className="grid md:grid-cols-2 gap-8 mb-16">
             <div className="group bg-card border border-border rounded-2xl p-8 shadow-sm hover:shadow-lg transition-all duration-300 hover:-translate-y-1">
               <div className="flex items-start space-x-4">
