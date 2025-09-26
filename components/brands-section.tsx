@@ -29,6 +29,26 @@ export function BrandsSection() {
   return (
     <section id="products" className="py-20 bg-gradient-to-b from-slate-50 to-white">
       <div className="container mx-auto px-4">
+        {/* Instrument Images Grid - Responsive */}
+        <div className="mb-12">
+          <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-6 gap-4 sm:gap-6 items-center">
+            {[...Array(21)].map((_, i) => (
+              <div
+                key={i}
+                className="flex items-center justify-center p-2 sm:p-4 bg-white rounded-lg shadow-sm hover:shadow-md transition-shadow duration-300 border border-slate-200"
+              >
+                <Image
+                  src={`/images/instrument/${i+1}.png`}
+                  alt={`Instrument ${i+1}`}
+                  width={100}
+                  height={100}
+                  className="w-full h-auto max-w-[80px] sm:max-w-[100px] md:max-w-[120px] object-contain rounded"
+                  style={{objectFit: 'contain', borderRadius: '8px'}}
+                />
+              </div>
+            ))}
+          </div>
+        </div>
         {/* Product Range Section */}
         <div className="mb-16">
           <div className="text-center mb-12">
