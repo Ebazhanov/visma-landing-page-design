@@ -95,7 +95,6 @@ export function ContactSection() {
                   <p className="text-foreground text-lg font-medium">{t("contact.office.address")}</p>
                   <p className="text-muted-foreground text-sm">{t("contact.office.fullAddress")}</p>
                 </div>
-                <p className="text-muted-foreground max-w-md mx-auto lg:mx-0">{t("contact.office.description")}</p>
               </div>
 
               <div className="w-full">
