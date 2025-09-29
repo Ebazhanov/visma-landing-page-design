@@ -10,38 +10,46 @@ export function AboutSection() {
   return (
     <section id="about" className="py-20 px-6 bg-card">
       <div className="max-w-6xl mx-auto">
-        {/* Who we are section */}
+        {/* About/О Компании */}
         <div className="mb-16">
-          <h2 className="text-4xl font-bold text-primary mb-12 text-balance">{t("about.title")}</h2>
-
-          <div className="space-y-8 text-lg leading-relaxed">
-            <div className="flex items-start gap-4">
-              <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
-              <p className="text-card-foreground">
-                <strong>{t("about.point1")}</strong>
-              </p>
+          <h2 className="text-4xl font-bold text-primary mb-12 text-balance">
+            {t("about.title")}
+          </h2>
+          {t("nav.about") === "О нас" ? (
+            <div className="space-y-8 text-lg leading-relaxed text-card-foreground">
+              <ul className="list-disc pl-6 space-y-4">
+                <li><strong>«ВИСМА» - надежный и финансово стабильный Поставщик промышленных запасных частей, расходных материалов и оборудования.</strong></li>
+                <li>Основанная как поставщик запасных частей, «ВИСМА» в настоящее время является быстрорастущей компанией на рынке запасных частей в России.</li>
+                <li>Мы предлагаем нашим клиентам механические и электрические детали, оборудование, а также инженерные решения совместно с нашим партнером компанией <a href="https://neilsoft.com/" target="_blank" rel="noopener noreferrer" className="text-blue-600 underline hover:text-blue-800">Neilsoft Engineering (Индия)</a>, чтобы предоставлять эффективные решения нашим клиентам.</li>
+              </ul>
             </div>
-
-            <div className="flex items-start gap-4">
-              <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
-              <p className="text-card-foreground">{t("about.point2")}</p>
+          ) : (
+            <div className="space-y-8 text-lg leading-relaxed text-card-foreground">
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
+                <p className="text-card-foreground">
+                  <strong>{t("about.point1")}</strong>
+                </p>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
+                <p className="text-card-foreground">{t("about.point2")}</p>
+              </div>
+              <div className="flex items-start gap-4">
+                <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
+                <p className="text-card-foreground">
+                  <span
+                    dangerouslySetInnerHTML={{
+                      __html: t("about.point3").replace(
+                        /(Engineering Services & Design \|Neilsoft|Инженерные услуги и проектирование \|Neilsoft)/g,
+                        '<a href="https://felexatec.com.ar/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
+                      ),
+                    }}
+                  />
+                </p>
+              </div>
             </div>
-
-            <div className="flex items-start gap-4">
-              <div className="w-2 h-2 bg-secondary rounded-full mt-3 flex-shrink-0" />
-              <p className="text-card-foreground">
-                {/* Render the link for both languages using dangerouslySetInnerHTML */}
-                <span
-                  dangerouslySetInnerHTML={{
-                    __html: t("about.point3").replace(
-                      /(Engineering Services & Design \|Neilsoft|Инженерные услуги и проектирование \|Neilsoft)/g,
-                      '<a href="https://felexatec.com.ar/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
-                    ),
-                  }}
-                />
-              </p>
-            </div>
-          </div>
+          )}
         </div>
 
         {/* Partnership section */}
@@ -56,7 +64,7 @@ export function AboutSection() {
               </div>
               <div className="flex-shrink-0">
                 <a
-                  href="https://felexatec.com.ar/"
+                  href={t("nav.about") === "О нас" ? "https://neilsoft.com/" : "https://felexatec.com.ar/"}
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 h-16 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-lg flex items-center justify-center text-secondary font-bold text-sm hover:bg-blue-600 hover:text-white transition-colors"

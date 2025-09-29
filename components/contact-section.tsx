@@ -35,32 +35,22 @@ export function ContactSection() {
 
           <div className="flex justify-center">
             <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 w-full max-w-3xl">
-              {/* General Inquiries */}
+              {/* Email Addresses */}
               <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
                     <Mail className="w-6 h-6 text-secondary" />
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">General Inquiries</h3>
                 <a
                   href="mailto:visma@ooovisma.ru"
-                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all mb-2"
                 >
                   visma@ooovisma.ru
                 </a>
-              </div>
-              {/* Management */}
-              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                </div>
-                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Management</h3>
                 <a
                   href="mailto:manager@ooovisma.ru"
-                  className="text-primary hover:text-primary/80 transition-colors text-sm block text-center break-all"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
                 >
                   manager@ooovisma.ru
                 </a>
