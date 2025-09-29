@@ -64,7 +64,7 @@ export function AboutSection() {
               </div>
               <div className="flex-shrink-0">
                 <a
-                  href={t("nav.about") === "О нас" ? "https://neilsoft.com/" : "https://felexatec.com.ar/"}
+                  href="https://neilsoft.com/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-24 h-16 bg-gradient-to-r from-secondary/20 to-accent/20 rounded-lg flex items-center justify-center text-secondary font-bold text-sm hover:bg-blue-600 hover:text-white transition-colors"
