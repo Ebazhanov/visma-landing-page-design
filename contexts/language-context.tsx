@@ -85,6 +85,7 @@ const translations = {
 
     // Value Section
     "value.title": "Why Visma?",
+    "value.subtitle": "Discover why companies trust VISMA for reliability, expertise, and results.",
     "value.reliability.title": "RELIABILITY",
     "value.reliability.point1": "Excellent references",
     "value.reliability.point2": "Reliable Partner",

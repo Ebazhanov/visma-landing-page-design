@@ -43,9 +43,9 @@ export function ContactSection() {
           </div>
 
           <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 w-full max-w-3xl">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 w-full max-w-xl justify-items-center">
               {/* Email Addresses */}
-              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm w-full max-w-xs">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
                     <Mail className="w-6 h-6 text-secondary" />
@@ -65,7 +65,7 @@ export function ContactSection() {
                 </a>
               </div>
               {/* Phone */}
-              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm w-full max-w-xs">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6 text-secondary" />
