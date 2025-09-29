@@ -234,7 +234,23 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en")
+  // Check if language is stored in localStorage (client-side only)
+  let initialLang: Language = "en"
+  if (typeof window !== "undefined") {
+    const storedLang = window.localStorage.getItem("language") as Language | null
+    if (storedLang === "en" || storedLang === "ru") {
+      initialLang = storedLang
+    }
+  }
+  const [language, setLanguageState] = useState<Language>(initialLang)
+
+  // Update localStorage when language changes
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang)
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem("language", lang)
+    }
+  }
 
   const t = (key: string): string => {
     return translations[language][key as keyof (typeof translations)["en"]] || key

@@ -22,6 +22,8 @@ Welcome! This is a modern landing page built with React and TypeScript.
 
 ## 🌐 Website
 
+[![Live Website](https://img.shields.io/badge/website-online-brightgreen)](https://v0-landing-page-design.vercel.app/)
+
 - [Live site](https://v0-landing-page-design.vercel.app/)
 
 ## 🤝 Contact

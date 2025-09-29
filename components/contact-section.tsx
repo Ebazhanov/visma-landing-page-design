@@ -18,7 +18,16 @@ export function ContactSection() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="flex flex-col items-center justify-center text-center w-full lg:items-end lg:text-right lg:pr-8">
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">{t("contact.title")}</h2>
-                <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">{t("contact.subtitle")}</p>
+                {/* Only show subtitle for EN */}
+                {t && typeof t === 'function' && (typeof window === 'undefined' || (window && window.__NEXT_DATA__)) ? null : null}
+                {(() => {
+                  // Use language from context
+                  const lang = typeof window !== 'undefined' && window.localStorage ? window.localStorage.getItem('language') : undefined;
+                  if ((lang === 'en') || (!lang && typeof navigator !== 'undefined' && navigator.language.startsWith('en'))) {
+                    return <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">{t("contact.subtitle")}</p>;
+                  }
+                  return null;
+                })()}
               </div>
               <div className="flex justify-center lg:justify-start">
                 <div className="relative">
