@@ -4,7 +4,7 @@ import { CheckCircle } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
 
 export function ValueSection() {
-  const { t } = useLanguage()
+  const { t, language } = useLanguage()
 
   const values = [
     {
@@ -35,7 +35,9 @@ export function ValueSection() {
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-12">
             <h2 className="text-3xl md:text-4xl font-bold text-navy-900 mb-4">{t("value.title")}</h2>
-            <p className="text-xl text-blue-600 font-semibold">{t("value.subtitle")}</p>
+            {language === "en" && t("value.subtitle") && (
+              <p className="text-xl text-blue-600 font-semibold">{t("value.subtitle")}</p>
+            )}
           </div>
 
           <div className="grid md:grid-cols-2 gap-8">

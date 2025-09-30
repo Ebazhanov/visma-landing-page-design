@@ -5,6 +5,7 @@ import { LanguageProvider } from "@/contexts/language-context"
 import { Suspense } from "react"
 import "./globals.css"
 import "../styles/anchor-scroll.css"
+import Script from "next/script"
 
 export const viewport = {
   width: "device-width",
@@ -60,6 +61,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
+      <head>
+        <Script src="https://t.contentsquare.net/uxa/14f6574611804.js" strategy="afterInteractive" />
+      </head>
       <body style={{ fontFamily: 'system-ui, sans-serif' }}>
         <Suspense fallback={null}>
           <LanguageProvider>{children}</LanguageProvider>

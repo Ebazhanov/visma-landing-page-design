@@ -85,7 +85,7 @@ const translations = {
 
     // Value Section
     "value.title": "Why Visma?",
-    "value.subtitle": "We're here to serve you, the ones who get it done!",
+    "value.subtitle": "Discover why companies trust VISMA for reliability, expertise, and results.",
     "value.reliability.title": "RELIABILITY",
     "value.reliability.point1": "Excellent references",
     "value.reliability.point2": "Reliable Partner",
@@ -109,9 +109,6 @@ const translations = {
     "contact.office.title": "Our Office",
     "contact.office.address": "Stupino, Moscow Region, Russia",
     "contact.office.fullAddress": "Industrial District, Stupino, Moscow Region, 142800, Russia",
-    "contact.office.description":
-      "Serving clients globally with local expertise in industrial equipment and engineering solutions",
-    "contact.office.viewOnMaps": "View on Yandex Maps",
 
     // Footer
     "footer.description": "Your trusted technical supplier with global reach and local advantage.",
@@ -136,7 +133,7 @@ const translations = {
 
     // Hero Section
     "hero.tagline": "Глобальный охват. Локальные преимущества.",
-    "hero.description": "Ваш надежный партнер в области механических, электрических деталей, оборудования и инженерных решений по всей России.",
+    "hero.description": "Ваш надежный партнер в области механических, электрических запасных частей, оборудования и инженерных решений по всей России.",
     "hero.exploreProducts": "Изучить продукцию",
     "hero.contactUs": "СВЯЖИТЕСЬ С НАМИ",
 
@@ -151,19 +148,19 @@ const translations = {
       "Мы предлагаем нашим клиентам механические, электрические детали, оборудование, а также инженерные решения вместе с нашим партнером Neilsoft Engineering India (Инженерные услуги и проектирование |Neilsoft) для предоставления эффективных решений нашим уважаемым клиентам.",
     "about.partner": "Neilsoft",
     "about.partnerServices":
-      "Промышленное оборудование и машины | Автоматизация производства | Обработка сыпучих материалов | Общее машиностроение и изготовление",
+      "Инженерные услуги и решения в сфере строительства, переработки и производства, помогающие повысить эффективность проектов, за счет внедрения новых технологий и цифровой трансформации.",
     "about.partnerLabel": "ПАРТНЕР",
     "about.services.mro": "Механика",
-    "about.services.mroDesc": "Комплексные механические детали и решения",
+    "about.services.mroDesc": "Механические компоненты и решения",
     "about.services.electrical": "Электрические детали",
-    "about.services.electricalDesc": "Качественные электрические компоненты и системы",
+    "about.services.electricalDesc": "Электрические компоненты и системы",
     "about.services.equipment": "Оборудование",
     "about.services.equipmentDesc": "Промышленное оборудование и машины",
     "about.services.engineering": "Инженерные решения",
     "about.services.engineeringDesc": "Индивидуальные инженерные и проектные услуги",
 
     // Brands Section
-    "brands.title": "Ассортимент продукции - ПРОВЕРЕННЫЕ БРЕНДЫ",
+    "brands.title": "Ассортимент продукции",
     "brands.subtitle": "ВЫБОР ПРОИЗВОДИТЕЛЕЙ ДОСТУПЕН ЧЕРЕЗ ЕДИНУЮ СЕТЬ",
 
     // Partnership Section
@@ -191,39 +188,31 @@ const translations = {
 
     // Vision Section
     "vision.title": "Наша миссия",
-    "vision.point1": "Полная поддержка и обработка всех потребностей в деталях и проектах для наших клиентов.",
-    "vision.point2":
-      "Найти вместе с нашим клиентом оптимальную цепочку поставок для обеспечения поставок по максимально низким затратам.",
+    "vision.point1": "Полная поддержка потребностей наших клиентов в запасных частях, оборудовании и промышленном инжиниринге.",
+    "vision.point2": "Помогаем нашими заказчиками выбрать оптимальную цепочку поставок, с целью снижения затрат.",
     "vision.tagline": "VISMA, клиенты и поставщики-партнеры... Работаем вместе.",
 
     // Value Section
     "value.title": "Почему Visma?",
-    "value.subtitle": "Мы здесь, чтобы служить вам, тем, кто добивается результатов!",
     "value.reliability.title": "НАДЕЖНОСТЬ",
-    "value.reliability.point1": "Отличные рекомендации",
-    "value.reliability.point2": "Надежный партнер",
+    "value.reliability.point1": "Надежный Партнер",
+    "value.reliability.point2": "Отличные рекомендации",
     "value.team.title": "КОМАНДА",
-    "value.team.point1":
-      "Профессиональная команда с 15+ летним международным опытом в FMCG компаниях для поддержки ваших потребностей!",
-    "value.team.point2": "Поддержка управления категорией закупок для максимизации прибыльности вашего бизнеса.",
-    "value.supply.title": "ПОСТАВКИ",
-    "value.supply.point1": "Продукты, которые ВЫ просите - мы поставляем.",
-    "value.supply.point2": "Развитая сеть поставок (Индия, Китай, ЛАО, СА).",
+    "value.team.point1": "Профессиональная команда с более чем 15-летним международным опытом работы в компаниях FMCG.",
+    "value.team.point2": "Категорийный менеджмент не прямых закупок для роста прибыльности вашего бизнеса.",
+    "value.supply.title": "ПОСТАВКА",
+    "value.supply.point1": "Продукция, ВЫ спрашиваете, мы поставляем.",
+    "value.supply.point2": "Развитая сеть поставок (Индия, Китай, Южная, Северная Америка).",
     "value.savings.title": "ЭКОНОМИЯ",
-    "value.savings.point1": "Поиск лучших решений для решения ваших проблем.",
-    "value.savings.point2":
-      "Поддержка в достижении ваших целей по экономии (предотвращение затрат, снижение затрат/TCO, оборотный капитал).",
+    "value.savings.point1": "Поиск наилучших решений для решения ваших проблем.",
+    "value.savings.point2": "Поддержка в достижении ваших целей по экономии (Cost Avoidance, Cost Reduction/TCO, Working Capital).",
 
     // Contact Section
     "contact.title": "СВЯЖИТЕСЬ С НАМИ",
-    "contact.subtitle": "Свяжитесь с нашей командой для всех ваших потребностей",
     "contact.email": "Электронная почта",
-    "contact.getInTouch": "Свяжитесь с нашей командой для всех ваших потребностей",
     "contact.office.title": "Наш офис",
     "contact.office.address": "Ступино, Московская область, Россия",
     "contact.office.fullAddress": "Промышленный район, Ступино, Московская область, 142800, Россия",
-    "contact.office.description":
-      "Обслуживаем клиентов по всему миру с местной экспертизой в области промышленного оборудования и инженерных решений",
     "contact.office.viewOnMaps": "Посмотреть на Яндекс Картах",
 
     // Footer
@@ -244,7 +233,23 @@ const translations = {
 const LanguageContext = createContext<LanguageContextType | undefined>(undefined)
 
 export function LanguageProvider({ children }: { children: ReactNode }) {
-  const [language, setLanguage] = useState<Language>("en")
+  // Check if language is stored in localStorage (client-side only)
+  let initialLang: Language = "en"
+  if (typeof window !== "undefined") {
+    const storedLang = window.localStorage.getItem("language") as Language | null
+    if (storedLang === "en" || storedLang === "ru") {
+      initialLang = storedLang
+    }
+  }
+  const [language, setLanguageState] = useState<Language>(initialLang)
+
+  // Update localStorage when language changes
+  const setLanguage = (lang: Language) => {
+    setLanguageState(lang)
+    if (typeof window !== "undefined") {
+      window.localStorage.setItem("language", lang)
+    }
+  }
 
   const t = (key: string): string => {
     return translations[language][key as keyof (typeof translations)["en"]] || key

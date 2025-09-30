@@ -2,6 +2,7 @@
 
 import { Mail, Phone, MapPin } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import Image from "next/image"
 
 export function ContactSection() {
   const { t } = useLanguage()
@@ -18,13 +19,24 @@ export function ContactSection() {
             <div className="grid lg:grid-cols-2 gap-8 items-center">
               <div className="flex flex-col items-center justify-center text-center w-full lg:items-end lg:text-right lg:pr-8">
                 <h2 className="text-4xl md:text-5xl font-bold mb-4 text-primary">{t("contact.title")}</h2>
-                <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">{t("contact.subtitle")}</p>
+                {/* Only show subtitle for EN */}
+                {t && typeof t === 'function' && (typeof window === 'undefined' || (window && window.__NEXT_DATA__)) ? null : null}
+                {(() => {
+                  // Use language from context
+                  const lang = typeof window !== 'undefined' && window.localStorage ? window.localStorage.getItem('language') : undefined;
+                  if ((lang === 'en') || (!lang && typeof navigator !== 'undefined' && navigator.language.startsWith('en'))) {
+                    return <p className="text-xl text-muted-foreground max-w-2xl leading-relaxed">{t("contact.subtitle")}</p>;
+                  }
+                  return null;
+                })()}
               </div>
               <div className="flex justify-center lg:justify-start">
                 <div className="relative">
-                  <img
+                  <Image
                     src="/images/connect-communication.png"
                     alt="Digital communication and connectivity"
+                    width={320}
+                    height={240}
                     className="w-80 h-60 object-cover rounded-2xl shadow-lg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-2xl"></div>
@@ -34,39 +46,29 @@ export function ContactSection() {
           </div>
 
           <div className="flex justify-center">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-12 w-full max-w-3xl">
-              {/* General Inquiries */}
-              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+            <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12 w-full max-w-xl justify-items-center">
+              {/* Email Addresses */}
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm w-full max-w-xs">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
                     <Mail className="w-6 h-6 text-secondary" />
                   </div>
                 </div>
-                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">General Inquiries</h3>
                 <a
                   href="mailto:visma@ooovisma.ru"
-                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all mb-2"
                 >
                   visma@ooovisma.ru
                 </a>
-              </div>
-              {/* Management */}
-              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
-                <div className="flex items-center justify-center mb-4">
-                  <div className="w-12 h-12 bg-primary/10 rounded-full flex items-center justify-center">
-                    <Mail className="w-6 h-6 text-primary" />
-                  </div>
-                </div>
-                <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Management</h3>
                 <a
                   href="mailto:manager@ooovisma.ru"
-                  className="text-primary hover:text-primary/80 transition-colors text-sm block text-center break-all"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
                 >
                   manager@ooovisma.ru
                 </a>
               </div>
               {/* Phone */}
-              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm">
+              <div className="bg-card backdrop-blur-sm p-6 rounded-xl border border-border hover:bg-card/80 transition-all duration-300 hover:scale-105 shadow-sm w-full max-w-xs">
                 <div className="flex items-center justify-center mb-4">
                   <div className="w-12 h-12 bg-secondary/10 rounded-full flex items-center justify-center">
                     <Phone className="w-6 h-6 text-secondary" />
@@ -96,7 +98,6 @@ export function ContactSection() {
                   <p className="text-foreground text-lg font-medium">{t("contact.office.address")}</p>
                   <p className="text-muted-foreground text-sm">{t("contact.office.fullAddress")}</p>
                 </div>
-                <p className="text-muted-foreground max-w-md mx-auto lg:mx-0">{t("contact.office.description")}</p>
               </div>
 
               <div className="w-full">
