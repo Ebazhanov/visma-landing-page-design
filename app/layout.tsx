@@ -4,6 +4,13 @@ import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/contexts/language-context"
 import { Suspense } from "react"
 import "./globals.css"
+import "../styles/anchor-scroll.css"
+
+export const viewport = {
+  width: "device-width",
+  initialScale: 1,
+  themeColor: "#0a2540"
+}
 
 export const metadata: Metadata = {
   title: "VISMA – Industrial Automation & Engineering Parts Supplier",
@@ -21,9 +28,7 @@ export const metadata: Metadata = {
     "automation solutions"
   ],
   authors: [{ name: "VISMA", url: "https://ooovisma.ru" }],
-  viewport: "width=device-width, initial-scale=1",
   robots: "index, follow",
-  themeColor: "#0a2540",
   openGraph: {
     title: "VISMA – Industrial Automation & Engineering Parts Supplier",
     description: "VISMA supplies industrial automation and engineering parts, offering expert services and global partnerships. Explore our innovative solutions and a wide range of leading brands in automation, logistics, and engineering.",

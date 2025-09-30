@@ -118,6 +118,7 @@ export function ContactSection() {
                     target="_blank"
                     rel="noopener noreferrer"
                     className="inline-flex items-center text-secondary hover:text-secondary/80 transition-colors text-sm font-medium"
+                    title={t("contact.office.viewOnMaps")}
                   >
                     <MapPin className="w-4 h-4 mr-2" />
                     {t("contact.office.viewOnMaps")}
