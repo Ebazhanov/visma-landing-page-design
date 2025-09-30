@@ -4,14 +4,12 @@ import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/contexts/language-context"
 import { Suspense } from "react"
 import "./globals.css"
-import Head from "next/head"
+import Script from "next/script"
 
 export const viewport = {
   width: 'device-width',
   initialScale: 1,
 }
-
-export const themeColor = '#0a2540'
 
 export const metadata: Metadata = {
   title: "VISMA – Industrial Automation & Engineering Parts Supplier",
@@ -61,9 +59,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <Head>
-        <script src="https://t.contentsquare.net/uxa/14f6574611804.js"></script>
-      </Head>
+      <head>
+        <Script src="https://t.contentsquare.net/uxa/14f6574611804.js" strategy="afterInteractive" />
+      </head>
       <body style={{ fontFamily: 'system-ui, sans-serif' }}>
         <Suspense fallback={null}>
           <LanguageProvider>{children}</LanguageProvider>
