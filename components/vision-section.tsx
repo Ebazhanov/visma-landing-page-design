@@ -2,6 +2,7 @@
 
 import { useLanguage } from "@/contexts/language-context"
 import { Target, Globe } from "lucide-react"
+import Image from "next/image"
 
 export function VisionSection() {
   const { t } = useLanguage()
@@ -45,9 +46,11 @@ export function VisionSection() {
 
           {/* Mission Image - Responsive, after blocks */}
           <div className="w-full flex justify-center items-center mb-12 px-2 sm:px-0">
-            <img
+            <Image
               src="/images/Our Mission.png"
               alt="Our Mission"
+              width={1200}
+              height={600}
               className="w-full max-w-lg sm:max-w-xl md:max-w-2xl lg:max-w-3xl h-auto object-contain rounded-xl shadow-lg"
               style={{maxWidth: '100%', height: 'auto'}}
             />

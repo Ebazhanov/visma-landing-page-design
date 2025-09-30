@@ -2,6 +2,7 @@
 
 import { Mail, Phone, MapPin } from "lucide-react"
 import { useLanguage } from "@/contexts/language-context"
+import Image from "next/image"
 
 export function ContactSection() {
   const { t } = useLanguage()
@@ -31,9 +32,11 @@ export function ContactSection() {
               </div>
               <div className="flex justify-center lg:justify-start">
                 <div className="relative">
-                  <img
+                  <Image
                     src="/images/connect-communication.png"
                     alt="Digital communication and connectivity"
+                    width={320}
+                    height={240}
                     className="w-80 h-60 object-cover rounded-2xl shadow-lg"
                   />
                   <div className="absolute inset-0 bg-gradient-to-t from-primary/10 to-transparent rounded-2xl"></div>
