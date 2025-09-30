@@ -109,6 +109,7 @@ const translations = {
     "contact.office.title": "Our Office",
     "contact.office.address": "Stupino, Moscow Region, Russia",
     "contact.office.fullAddress": "Industrial District, Stupino, Moscow Region, 142800, Russia",
+    "contact.office.viewOnMaps": "View on Yandex Maps",
 
     // Footer
     "footer.description": "Your trusted technical supplier with global reach and local advantage.",
