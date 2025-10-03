@@ -38,9 +38,3 @@ Welcome! This is a modern landing page built with React and TypeScript.
 ### About the Project
 
 This project is a modern, responsive landing page for VISMA, a trusted supplier of mechanical, electrical parts, equipment, and engineering solutions across Russia. Built with React, TypeScript, and deployed on Vercel and Netlify.
-
-#### Russian Version
-
-- «ВИСМА» - надежный и финансово стабильный Поставщик промышленных запасных частей, расходных материалов и оборудования.
-- Основанная как поставщик запасных частей, «ВИСМА» в настоящее время является быстрорастущей компанией на рынке запасных частей в России.
-- Мы предлагаем нашим клиентам механические и электрические детали, оборудование, а также инженерные решения совместно с нашим партнером компанией [Neilsoft Engineering (Индия)](https://neilsoft.com/), чтобы предоставлять эффективные решения нашим клиентам.
