@@ -41,8 +41,11 @@ export function AboutSection() {
                   <span
                     dangerouslySetInnerHTML={{
                       __html: t("about.point3").replace(
-                        /(Engineering Services & Design \|Neilsoft|Инженерные услуги и проектирование \|Neilsoft)/g,
-                        '<a href="https://felexatec.com.ar/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
+                        /(Neilsoft Engineering India)/g,
+                        '<a href="https://neilsoft.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
+                      ).replace(
+                        /(Engineering Services & Design \|Neilsoft)/g,
+                        '<a href="https://neilsoft.com/" target="_blank" rel="noopener noreferrer" class="text-blue-600 underline hover:text-blue-800">$1</a>'
                       ),
                     }}
                   />

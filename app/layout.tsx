@@ -4,11 +4,13 @@ import { Analytics } from "@vercel/analytics/next"
 import { LanguageProvider } from "@/contexts/language-context"
 import { Suspense } from "react"
 import "./globals.css"
+import "../styles/anchor-scroll.css"
 import Script from "next/script"
 
 export const viewport = {
-  width: 'device-width',
+  width: "device-width",
   initialScale: 1,
+  themeColor: "#0a2540"
 }
 
 export const metadata: Metadata = {

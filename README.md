@@ -2,6 +2,7 @@
 
 [![Live Website](https://img.shields.io/badge/website-online-brightgreen)](https://vercel.com/stasandrianov9s-projects/v0-landing-page-design)
 [![Deploy on Vercel](https://img.shields.io/badge/deployed%20on-vercel-black?logo=vercel)](https://vercel.com/)
+[![Deployed on Netlify](https://img.shields.io/badge/deployed%20on-netlify-brightgreen?logo=netlify)](https://visma-supply.netlify.app/)
 
 Welcome! This is a modern landing page built with React and TypeScript.
 
@@ -15,6 +16,7 @@ Welcome! This is a modern landing page built with React and TypeScript.
 - React
 - TypeScript
 - Vercel
+- Netlify
 - v0.app
 
 ## 📦 Getting Started
@@ -30,7 +32,8 @@ Welcome! This is a modern landing page built with React and TypeScript.
 
 [![Live Website](https://img.shields.io/badge/website-online-brightgreen)](https://v0-landing-page-design.vercel.app/)
 
-- [Live site](https://v0-landing-page-design.vercel.app/)
+- [Live site (Vercel)](https://v0-landing-page-design.vercel.app/)
+- [Live site (Netlify)](https://visma-supply.netlify.app/)
 
 ## 🤝 Contact
 
