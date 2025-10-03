@@ -5,6 +5,12 @@
 
 Welcome! This is a modern landing page built with React and TypeScript.
 
+---
+
+**This project serves as a Minimum Viable Product (MVP) for a real company and was created based on a presentation (*.ppt).**
+
+---
+
 ## 🛠️ Tech Stack
 - React
 - TypeScript
@@ -33,6 +39,8 @@ Welcome! This is a modern landing page built with React and TypeScript.
 ---
 
 ### About the Project
+
+**This project serves as a Minimum Viable Product (MVP) for a real company and was created based on a presentation (*.ppt).**
 
 This project is a modern, responsive landing page for VISMA, a trusted supplier of mechanical, electrical parts, equipment, and engineering solutions across Russia. Built with React, TypeScript, and deployed on Vercel.
 
