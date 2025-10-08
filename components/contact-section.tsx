@@ -75,12 +75,24 @@ export function ContactSection() {
                   </div>
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Phone</h3>
-                <a
-                  href="tel:+74951234567"
-                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center"
-                >
-                  +7 (495) 123-45-67
-                </a>
+                <div className="space-y-2">
+                  <a
+                    href="tel:+79163504741"
+                    className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80 transition-colors text-sm block text-center focus:outline-none focus:ring-2 focus:ring-secondary rounded"
+                    aria-label="Call +7 916 350-47-41"
+                  >
+                    <Phone className="w-4 h-4" aria-hidden="true" />
+                    +7 916 350-47-41
+                  </a>
+                  <a
+                    href="tel:+79165995714"
+                    className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80 transition-colors text-sm block text-center focus:outline-none focus:ring-2 focus:ring-secondary rounded"
+                    aria-label="Call +7 916 599-57-14"
+                  >
+                    <Phone className="w-4 h-4" aria-hidden="true" />
+                    +7 916 599-57-14
+                  </a>
+                </div>
               </div>
             </div>
           </div>
