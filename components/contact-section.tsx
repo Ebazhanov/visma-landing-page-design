@@ -56,15 +56,15 @@ export function ContactSection() {
                 </div>
                 <a
                   href="mailto:visma@ooovisma.ru"
-                  className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80 transition-colors text-base font-medium block text-center break-all mb-2 underline underline-offset-4"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all mb-2"
                 >
-                  <Mail className="w-5 h-5" /> visma@ooovisma.ru
+                  visma@ooovisma.ru
                 </a>
                 <a
                   href="mailto:manager@ooovisma.ru"
-                  className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80 transition-colors text-base font-medium block text-center break-all underline underline-offset-4"
+                  className="text-secondary hover:text-secondary/80 transition-colors text-sm block text-center break-all"
                 >
-                  <Mail className="w-5 h-5" /> manager@ooovisma.ru
+                  manager@ooovisma.ru
                 </a>
               </div>
               {/* Phone */}
@@ -75,9 +75,23 @@ export function ContactSection() {
                   </div>
                 </div>
                 <h3 className="text-lg font-semibold mb-3 text-center text-card-foreground">Phone</h3>
-                <div className="flex flex-col items-center justify-center gap-2">
-                  <a href="tel:+79163504741" className="flex items-center gap-2 text-lg font-semibold text-primary hover:text-secondary transition-colors underline underline-offset-4"><Phone className="w-5 h-5" />+7 916 350-47-41</a>
-                  <a href="tel:+79165995714" className="flex items-center gap-2 text-lg font-semibold text-primary hover:text-secondary transition-colors underline underline-offset-4"><Phone className="w-5 h-5" />+7 916 599-57-14</a>
+                <div className="space-y-2">
+                  <a
+                    href="tel:+79163504741"
+                    className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80 transition-colors text-sm block text-center focus:outline-none focus:ring-2 focus:ring-secondary rounded"
+                    aria-label="Call +7 916 350-47-41"
+                  >
+                    <Phone className="w-4 h-4" aria-hidden="true" />
+                    +7 916 350-47-41
+                  </a>
+                  <a
+                    href="tel:+79165995714"
+                    className="flex items-center justify-center gap-2 text-secondary hover:text-secondary/80 transition-colors text-sm block text-center focus:outline-none focus:ring-2 focus:ring-secondary rounded"
+                    aria-label="Call +7 916 599-57-14"
+                  >
+                    <Phone className="w-4 h-4" aria-hidden="true" />
+                    +7 916 599-57-14
+                  </a>
                 </div>
               </div>
             </div>
